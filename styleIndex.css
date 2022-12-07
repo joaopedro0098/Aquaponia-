@@ -34,6 +34,7 @@ h1{
    font-size: 18px;
    text-decoration-line: none;
    overflow:hidden;
+   position: relative; 
 }
 
 
@@ -57,6 +58,7 @@ button{
 /* ANIMAÇÕES */
 
 
+/*
 li:hover, h1:hover, a:hover, button:hover{
    cursor:pointer;
    opacity: 0.8;
@@ -98,8 +100,27 @@ button:focus = ul{
 
    
 }
+*/
+
+/* MAIS ANIMAÇÃO DOS LINKS MENU */
 
 
+
+a::after{
+    content: " "; 
+    width:0%;
+    height: 2px;
+    background-color: white;
+    position:absolute; 
+    bottom: 0;
+    left: 0; 
+    transition: 0.5s ease-out;
+}
+
+a:hover::after{
+   width:100%; 
+
+}
 
 
 

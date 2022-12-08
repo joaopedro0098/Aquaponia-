@@ -1,0 +1,19 @@
+A fazeres para o site: 
+  CSS
+- Tirar o sublinhado do link
+- Deixar a barra do cabeçalho mais larga
+- Centralizar a foto
+- Deixar a ft e o título da foto clicável. 
+- Aplicar os conhecimentos de flex box
+- Aplicar os conhecimentos de formulário
+- separar melhor o login, jogar pro canto direito. 
+
+ HTML
+- Página tem que abrir na mesma aba.
+- Copiar e colocar o cabeçalho em todas as páginas
+
+
+O que aprendi:
+- Fazer um agrupamento de seletores, basta colocar virgu-
+la la no CSS, ai tudo o q eu mudar em um, muda em todos 
+o que eu selecionei. 

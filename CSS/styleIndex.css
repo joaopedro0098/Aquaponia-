@@ -1,4 +1,4 @@
-/*HOME*/
+/*HEADER*/
 body{
    margin:0px;
    
@@ -55,7 +55,7 @@ button{
    display:none;
 }
 
-/* ANIMAÇÕES */
+/* EXEMPLO DE ANIMAÇÃO */
 
 
 /*
@@ -102,9 +102,10 @@ button:focus = ul{
 }
 */
 
-/* MAIS ANIMAÇÃO DOS LINKS MENU */
 
 
+
+/* ANIMAÇÃO QUE VOU ULTILIZAR */
 
 a::after{
     content: " "; 
@@ -121,6 +122,8 @@ a:hover::after{
    width:100%; 
 
 }
+
+/*MAIN*/
 
 
 

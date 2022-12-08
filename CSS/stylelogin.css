@@ -6,11 +6,12 @@ body{
 
 #modal{
     padding:30px;
-    background: rgb(171, 229, 171);
+    background: white;
     border-radius: 30px;
     max-width: 400px;
     margin: 20px auto;
     margin-top: 12%;
+    box-shadow: 7px 7px 7px 7px  rgba(3, 3, 3, .3);
     
 }
 

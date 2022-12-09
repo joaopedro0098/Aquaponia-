@@ -1,4 +1,4 @@
-/*HEADER*/
+/* ------------------------- H E A D E R -----------------------*/
 body{
    margin:0px;
    
@@ -44,71 +44,8 @@ nav,ul{
    flex-direction:row; 
 }
 
-/* button{
-   background-color:transparent;
-   border:none;
-   color: white;
-   font-size:36px;
-   position:absolute;
-   right:10px;
-   top:10px;
-   display:none;
-}
 
-*/
-
-/* EXEMPLO DE ANIMAÇÃO */
-
-
-/*
-li:hover, h1:hover, a:hover, button:hover{
-   cursor:pointer;
-   opacity: 0.8;
-   color:rgb(128, 128, 239);
-   transform:scale(1.15,1.15);
-   
-   max-width:100%;
-   -moz-animation-duration: all 0.3s; 
-
-}
-
-button:focus = ul{
-   height:260px;
-}
-
-@media (max-width: 700px) {
-   nav, ul{
-      flex-direction:column;
-      align-items:unset;
-   }
-   ul{
-      text-align:center;
-      margin:0;
-   }
-   nav{
-      padding:0;
-      align-items:flex-start;
-   }
-   button{
-      display:flex;
-   }
-   h1{
-      margin:10px;
-   }
-
-   li,ul{
-      width:100%;
-   }
-
-   
-}
-*/
-
-
-
-
-/* ANIMAÇÃO QUE VOU ULTILIZAR */
-
+/*ANIMAÇÃO MENU*/ 
 .itemenu::after{
     content: " "; 
     width:0%;
@@ -125,23 +62,39 @@ button:focus = ul{
 
 }
 
-/*MAIN*/
+/* ------------------ M A I N -------------------------*/
 
 .listaservicos{
    display:flex;
    border: 2px solid black; 
-   margin: 200px 5px 5px 5px;
+   margin: 150px 5px 5px 5px;
    padding: 5px 5px 5px 5px;
    justify-content: space-around;
    flex-wrap:wrap;
 }
 
-img{
-   border: 1px solid black; 
-   max-width: 300px;
-   max-height: auto;
+img.organicos{
+   position:relative;
+   border-radius:6px; 
    
+   padding:0px;
+   width: 800px;
+   height: 300px;
+   /* border: 1px solid black; */
+   /* box-shadow: 5px 5px 15px rgba(0,0,0,5.9)*/
 }
+
+
+img{
+   position:relative;
+   border-radius:6px; 
+   width: 300px;
+   height: 300px;
+   /* border: 1px solid black; */
+   /* box-shadow: 5px 5px 15px rgba(0,0,0,5.9)*/
+}
+
+/*ANIMAÇÕES MAIN*/
 
 
 

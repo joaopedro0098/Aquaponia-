@@ -64,7 +64,7 @@ nav,ul{
 
 /* ------------------ M A I N -------------------------*/
 
-.listaservicos{
+.containerimages{
    display:flex;
    border: 2px solid black; 
    margin: 150px 5px 5px 5px;
@@ -75,8 +75,9 @@ nav,ul{
 
 img.organicos{
    position:relative;
+   right:15px;
    border-radius:6px; 
-   
+   margin:0px; 
    padding:0px;
    width: 800px;
    height: 300px;
@@ -85,10 +86,49 @@ img.organicos{
 }
 
 
-img{
+img.aquaponia{
    position:relative;
-   border-radius:6px; 
-   width: 300px;
+   right:30px;
+   border-radius:6px;
+   margin:0px; 
+   padding:0px; 
+   width:400px;
+   height: 300px;
+   /* border: 1px solid black; */
+   /* box-shadow: 5px 5px 15px rgba(0,0,0,5.9)*/
+}
+
+img.jardim{
+   position:relative;
+   right:5px;
+   border-radius:6px;
+   margin:0px; 
+   padding:0px; 
+   width:400px;
+   height: 300px;
+   /* border: 1px solid black; */
+   /* box-shadow: 5px 5px 15px rgba(0,0,0,5.9)*/
+}
+
+img.horta{
+   position:relative;
+   right:5px;
+   border-radius:6px;
+   margin:0px; 
+   padding:0px; 
+   width:400px;
+   height: 300px;
+   /* border: 1px solid black; */
+   /* box-shadow: 5px 5px 15px rgba(0,0,0,5.9)*/
+}
+
+img.consultoria{
+   position:relative;
+   right:5px;
+   border-radius:6px;
+   margin:0px; 
+   padding:0px; 
+   width:400px;
    height: 300px;
    /* border: 1px solid black; */
    /* box-shadow: 5px 5px 15px rgba(0,0,0,5.9)*/

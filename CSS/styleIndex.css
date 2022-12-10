@@ -76,12 +76,14 @@ nav,ul{
 img.organicos{
    position:relative;
    right:15px;
+   border-right-width: ;
    border-radius:6px; 
    margin:0px; 
    padding:0px;
    width: 800px;
    height: 300px;
-   /* border: 1px solid black; */
+   
+   /* border: 1px solid black; 
    /* box-shadow: 5px 5px 15px rgba(0,0,0,5.9)*/
 }
 
@@ -92,7 +94,7 @@ img.aquaponia{
    border-radius:6px;
    margin:0px; 
    padding:0px; 
-   width:400px;
+   width:430px;
    height: 300px;
    /* border: 1px solid black; */
    /* box-shadow: 5px 5px 15px rgba(0,0,0,5.9)*/
@@ -112,11 +114,11 @@ img.jardim{
 
 img.horta{
    position:relative;
-   right:5px;
+   right:40px;
    border-radius:6px;
    margin:0px; 
    padding:0px; 
-   width:400px;
+   width:380px;
    height: 300px;
    /* border: 1px solid black; */
    /* box-shadow: 5px 5px 15px rgba(0,0,0,5.9)*/

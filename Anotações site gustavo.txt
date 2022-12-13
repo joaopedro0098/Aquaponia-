@@ -1,10 +1,4 @@
 A fazeres para o site: 
-  CSS
-- Aplicar os conhecimentos de flex box
-- Aplicar os conhecimentos de formulário
 
- HTML
-- Copiar e colocar o cabeçalho em todas as páginas
-- Aprender determinar como os elementos vão se dispor quando tiver uma tela menor, determinando quando eles vão quebrar. Ver se é necessário o em e o rem. 
 
 

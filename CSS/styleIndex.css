@@ -28,7 +28,7 @@ h1{
    padding: 0px;
 }
 
- a{
+ a.itemenu{
    color: white;
    padding: 0px ;
    font-size: 18px;
@@ -101,7 +101,7 @@ main{
    top: 5px;
  }
  
- .jardim{
+ .jardinagem{
    border: 2px solid  black;
  
    position: absolute;
@@ -141,7 +141,7 @@ main{
    z-index:1;
  }
 
- .aquaponia:hover,.jardim:hover,.horta:hover,.consultoria:hover{
+ .aquaponia:hover,.jardinagem:hover,.horta:hover,.consultoria:hover{
    transform: scale(1.14);
    transition: 0.5s;
    z-index:1;

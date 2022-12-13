@@ -1,4 +1,10 @@
 A fazeres para o site: 
 
+- Colocar a opção criar conta e esqueci a senha, na página de login. 
+- Na página criar conta, desenvolver o formulário. 
+- Deixar o site responsivo
+-
+
+
 
 
